@@ -1,0 +1,12 @@
+{
+  "name": "com.savesystem.core",
+  "version": "1.0.0",
+  "displayName": "Save System",
+  "description": "Drop-in модуль збереження для Unity. Два режими (стан помічених обджектів / повна сцена), AES-256-CBC + HMAC, LZ4-стиснення, авто-збереження, відкат, скріншоти, Source Generator для Dirty-перевірки.",
+  "unity": "2021.2",
+  "author": { "name": "BitSaveSystem" },
+  "dependencies": {
+    "com.unity.modules.imageconversion": "1.0.0"
+  },
+  "keywords": ["save", "load", "serialization", "encryption", "scene"]
+}
